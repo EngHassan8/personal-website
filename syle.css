@@ -17,6 +17,7 @@
    justify-content: space-between;
    padding: 20px 30px;
    justify-items: center;
+   background-color: greenyellow;
 }
 .header1 ul{
     display: flex;
