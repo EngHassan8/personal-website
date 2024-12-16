@@ -1,0 +1,451 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.header1 span{
+    color: darkorange;
+}
+
+
+
+.header1{
+   display: flex; 
+   justify-content: space-between;
+   padding: 20px 30px;
+   justify-items: center;
+}
+.header1 ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 30px;
+    animation-name: hassan;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+ul   li:hover{
+    box-shadow: 0 0 20px rgba(0,0, 0, 0.2);
+    border-radius: 8px;
+    background-color: yellow;
+}
+
+@keyframes hassan{
+    from{
+        color: black;
+    }
+    to{
+    color: red;
+    }
+}
+.header1 button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: darkorange;
+    color: #fff;
+    font-size: 14px;
+    
+
+}
+button:hover{
+
+    box-shadow: 0 0 20px rgba(0,0, 0, 7);
+  }
+
+.main1{
+    padding: 10px 10px;
+    margin: 100px;
+display: flex;
+justify-content: space-between;
+}
+.main1 h1{
+    width: 400px;
+    padding-bottom: 20px;
+}
+.main1 h3{
+    padding-bottom: 20px;
+
+}
+.main1 p{
+    width: 500px;
+    padding-bottom: 14px;
+    
+
+}
+.main1 span{
+    color: darkorange;
+}
+.main1 button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: darkorange;
+    color: #fff;
+    font-size: 14px;
+}
+    
+
+
+.main2 img{
+    border-radius: 8px;
+    width: 400px;
+
+
+    
+}
+img:hover{
+    box-shadow: 0 0 20px rgba(0,10, 5, 1.5);
+}
+
+
+@media screen and (max-width:600px){
+    .header1 UL{
+        display: none;
+    }
+    .header1 button{
+        display: none;
+    }
+    .main1{
+        padding: 0;
+        font-size: 15px;
+        margin-left: 20px;
+
+    }
+    .main1 h1{
+        padding:5px;
+        font-size: 15px;
+    }
+    .main1 p{
+        width: 300px;
+    }
+    .main2 img{
+        
+    }
+    
+
+}
+     
+
+
+
+
+
+
+
+.about{
+    padding: 20px 44px;
+    display: flex;
+
+    background-color: bisque;
+    height: 470px;
+    justify-content: space-around;
+    gap: 80px;
+}
+.about p{
+    width: 700px;
+    margin-bottom: 70px ;
+}
+.about img{
+width: 300px;
+height:400px;
+
+}
+.about h1{
+    padding: 15px;
+    margin-left: 200px;
+    color: aqua;
+}
+.about h5{
+    padding: 15px;
+    margin-left: 270px;
+    color:  blue;
+}
+
+
+@media  screen and(max-width:600px){
+.about img{
+
+    width: 100px;
+}
+.about p{
+    display: none;
+}
+.about h1{
+
+}
+}
+    
+
+
+
+
+
+
+.servis{
+    
+    display: flex
+    
+}
+
+
+
+
+.servis1{
+    padding: 20px 40px;
+    margin: 30px;
+    gap: -23px;
+    
+}
+.servis1 img{
+    font-size: 10px;
+    width: 200px;
+    border: 2px solid rgb(165, 143, 143)
+    
+}
+.servis1 p{
+    width: 300px;
+}
+.servis1 h1{
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.weyn{
+    background-color: whitesmoke;
+    height: 1000px; 
+    padding: 10px 20px;
+
+}
+
+
+.team{
+    margin-top: 100px;
+    justify-items: center;
+    
+    
+    
+}
+
+
+.Rooms{
+    padding: 15px 45px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+    height: 400px;  
+    padding-bottom: 20px;  
+}
+.Rooms img{
+    width: 300px   ;
+    padding: 10px;
+}
+.Rooms h1{
+Margin-left: 15px;
+color: darkorange
+
+}
+.Rooms h2{
+    Margin-left: 1px;
+}
+.Rooms p{
+    margin-left: 50px;
+    
+}
+
+.red{
+    
+    border: none;
+    padding: 10px 15px;
+    background-color: white;
+    box-shadow: 0px 15px 15px rgba(0,0,0,0.2);
+}
+.red span{
+    font-size: 30px;
+    color: black;
+}
+.red h1{
+    font-size: 20px;
+
+}
+@media screen and (max-width:600px){
+    .servis{
+        flex-direction: column;
+    }
+    
+    
+    
+}
+
+
+
+
+.parent {
+     background-color: darkslategray;
+     
+    
+}
+.walid{
+    padding: 40px 100px;
+display: flex;  
+justify-content: center ;  
+gap: 100PX;
+margin: 100px;
+height: 100px;
+color: white;
+
+}
+.walid p{
+    margin-left: 10px;
+    padding: 5px;
+    padding: 10px 20px;
+}
+
+.walid h1{
+    margin-left: 3px;
+    padding: 10px 20px;
+}
+
+
+@media screen and (max-width:600px){
+    
+    .walid{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments {
+    justify-items: center;
+    
+}
+.comments h1{
+    margin-left: 110px;
+    padding: 20px;
+    
+}
+.comments img{
+    width: 200px;
+    border-radius: 50px;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.comments h2{
+    margin-left: 100px;
+    padding: 20px;
+}
+
+
+
+
+.farxad1{
+    justify-items: center;
+    margin: 80px;
+    padding: 20px 30px;
+    
+}
+.farxad2{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.farxad2 h2{
+    width: 300px;
+}
+.farxad2 p{
+    padding: 10px;
+}
+@media screen and(max-width:600px) {
+.farxad2{
+    flex-direction: column;
+
+}
+
+
+}
+.lass1{
+justify-items: center;
+margin: 50px;
+padding: 20px 30px;
+}   
+.less{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media screen and (max-width:600px){
+    .less1{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+.footar{
+    background-color: darkorange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 300px;
+    padding: 70px 120px;
+    justify-items: center;
+    
+}
+.farxad2{
+    font-size: 20px;
+}
+
+.footar2 h1{
+    font-size: 15px;
+    padding: 10px;
+    color: blue;
+}
+.footar2 ul{
+    list-style: none;
+    padding: 20px;
+    gap: 20px;
+    width: 90px;
+}
+.footar1 P{
+width: 300PX;
+padding-top: 20px;
+}
+.footar3 p{
+    padding-top: 20px;
+    width: 300px;
+
+}
+    .footar3 h3{
+    padding-top: 20px;
+}
+@media screen and(max-width:600px){
+    .footar1{
+        font-size: 15px;
+        padding: 0;
+    }
+}
